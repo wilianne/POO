@@ -12,7 +12,6 @@ try:
     print(f"O resultado da divisao eh {resultado}")
 except Exception as erro:
     print(f"Ocorreu um erro: {erro}")
-"""
 
 try:
     n1 = int(input("Numero1: "))
@@ -31,3 +30,4 @@ else:
     print("O programa foi executado corretamente")
 finally:
     print("FIM")
+"""
