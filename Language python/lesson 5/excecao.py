@@ -31,3 +31,12 @@ else:
 finally:
     print("FIM")
 """
+numeros = []
+for i in range(5):
+    while True:
+        try:
+            numero = int(input(f"Digite o numero {i + 1}:"))
+            numeros.append(numero)
+            break
+        except ValueError:
+            print("ERRO")
