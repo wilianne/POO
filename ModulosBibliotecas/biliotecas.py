@@ -1,6 +1,7 @@
 import math 
 import random
 
+
 nota = 6.855
 
 # print(round(nota,2))
